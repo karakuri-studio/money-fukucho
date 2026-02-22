@@ -1,0 +1,93 @@
+<svg id="cover-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" width="1500" height="600">
+        <defs>
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@800&amp;display=swap');
+            .title { font-family: 'Shippori Mincho', 'Yu Mincho', 'MS Mincho', serif; }
+            .sans { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+          </style>
+        </defs>
+
+        <!-- Background (Washi color) -->
+        <rect width="1500" height="600" fill="#f4f1e8"/>
+
+        <!-- Japanese Binding (Left edge) -->
+        <rect x="0" y="0" width="50" height="600" fill="#2a0808"/>
+        <g stroke="#f4f1e8" stroke-width="4" stroke-linecap="round" fill="none">
+          <line x1="25" y1="80" x2="70" y2="80"/>
+          <line x1="25" y1="190" x2="70" y2="190"/>
+          <line x1="25" y1="300" x2="70" y2="300"/>
+          <line x1="25" y1="410" x2="70" y2="410"/>
+          <line x1="25" y1="520" x2="70" y2="520"/>
+          <line x1="25" y1="80" x2="25" y2="190"/>
+          <line x1="25" y1="190" x2="25" y2="300"/>
+          <line x1="25" y1="300" x2="25" y2="410"/>
+          <line x1="25" y1="410" x2="25" y2="520"/>
+        </g>
+
+        <!-- Left Graphics: Gears / Karakuri (Gin & Kin) -->
+        <g transform="translate(200, 300)">
+          <!-- Big gear -->
+          <circle r="300" fill="none" stroke="#9ea8a0" stroke-width="30" stroke-dasharray="25 25" opacity="0.1"/>
+          <circle r="260" fill="none" stroke="#9ea8a0" stroke-width="2" opacity="0.2"/>
+          <!-- Medium gear -->
+          <circle r="180" fill="none" stroke="#9ea8a0" stroke-width="15" stroke-dasharray="10 15" opacity="0.15"/>
+          <circle r="150" fill="none" stroke="#9ea8a0" stroke-width="4" opacity="0.2"/>
+          <!-- Inner circle -->
+          <circle r="60" fill="none" stroke="#9ea8a0" stroke-width="6" opacity="0.2"/>
+          <circle r="20" fill="none" stroke="#9ea8a0" stroke-width="2" opacity="0.2"/>
+          <!-- Spokes -->
+          <line x1="-260" y1="0" x2="-60" y2="0" stroke="#9ea8a0" stroke-width="4" opacity="0.15"/>
+          <line x1="60" y1="0" x2="260" y2="0" stroke="#9ea8a0" stroke-width="4" opacity="0.15"/>
+          <line x1="0" y1="-260" x2="0" y2="-60" stroke="#9ea8a0" stroke-width="4" opacity="0.15"/>
+          <line x1="0" y1="60" x2="0" y2="260" stroke="#9ea8a0" stroke-width="4" opacity="0.15"/>
+          <line x1="-180" y1="-180" x2="-40" y2="-40" stroke="#9ea8a0" stroke-width="2" opacity="0.15"/>
+          <line x1="40" y1="40" x2="180" y2="180" stroke="#9ea8a0" stroke-width="2" opacity="0.15"/>
+        </g>
+
+        <g transform="translate(450, 150)">
+          <circle r="120" fill="none" stroke="#c4a668" stroke-width="12" stroke-dasharray="15 10" opacity="0.15"/>
+          <circle r="90" fill="none" stroke="#c4a668" stroke-width="2" opacity="0.2"/>
+          <circle r="40" fill="none" stroke="#c4a668" stroke-width="4" opacity="0.2"/>
+          <line x1="-90" y1="0" x2="-40" y2="0" stroke="#c4a668" stroke-width="2" opacity="0.15"/>
+          <line x1="40" y1="0" x2="90" y2="0" stroke="#c4a668" stroke-width="2" opacity="0.15"/>
+          <line x1="0" y1="-90" x2="0" y2="-40" stroke="#c4a668" stroke-width="2" opacity="0.15"/>
+          <line x1="0" y1="40" x2="0" y2="90" stroke="#c4a668" stroke-width="2" opacity="0.15"/>
+        </g>
+
+        <!-- Right Graphics: Abstract Fire / Karma (Beni & Fire) -->
+        <g opacity="0.7">
+          <path d="M 1100,600 Q 1150,450 1300,400 T 1500,200 L 1500,600 Z" fill="#ff4757" opacity="0.04"/>
+          <path d="M 1200,600 Q 1250,500 1350,450 T 1500,300 L 1500,600 Z" fill="#bf3943" opacity="0.06"/>
+          <path d="M 1300,600 Q 1350,550 1450,500 T 1500,400 L 1500,600 Z" fill="#2a0808" opacity="0.04"/>
+        </g>
+
+        <!-- Gold Dust / Particles -->
+        <circle cx="350" cy="450" r="3" fill="#c4a668" opacity="0.5"/>
+        <circle cx="400" cy="500" r="1.5" fill="#c4a668" opacity="0.7"/>
+        <circle cx="550" cy="100" r="2" fill="#c4a668" opacity="0.6"/>
+        <circle cx="850" cy="120" r="1" fill="#c4a668" opacity="0.8"/>
+        <circle cx="900" cy="480" r="3" fill="#c4a668" opacity="0.4"/>
+        <circle cx="1150" cy="200" r="2" fill="#c4a668" opacity="0.5"/>
+        <circle cx="1200" cy="250" r="4" fill="#c4a668" opacity="0.3"/>
+        <circle cx="1300" cy="150" r="1.5" fill="#c4a668" opacity="0.7"/>
+
+        <!-- Typography -->
+        <!-- Gold Drop Shadow -->
+        <text x="755" y="295" dy="0.35em" class="title" font-size="100" font-weight="800" fill="#c4a668" text-anchor="middle" letter-spacing="14" opacity="0.4">からくり大福帳</text>
+        <!-- Main Text -->
+        <text x="750" y="290" dy="0.35em" class="title" font-size="100" font-weight="800" fill="#1a1a1a" text-anchor="middle" letter-spacing="14">からくり大福帳</text>
+        <!-- Subtitle -->
+        <text x="750" y="400" dy="0.35em" class="sans" font-size="22" font-weight="bold" fill="#9ea8a0" text-anchor="middle" letter-spacing="10">KARAKURI LEDGER</text>
+
+        <!-- Stamps (Hanko) -->
+        <g transform="translate(1140, 210) rotate(-15)">
+          <rect x="-40" y="-40" width="80" height="80" rx="8" fill="none" stroke="#bf3943" stroke-width="4" opacity="0.85"/>
+          <text x="0" y="0" dy="0.35em" class="title" font-size="28" font-weight="800" fill="#bf3943" text-anchor="middle" opacity="0.85">借財</text>
+        </g>
+        
+        <g transform="translate(380, 440) rotate(10)">
+          <rect x="-35" y="-35" width="70" height="70" rx="6" fill="none" stroke="#4a7c59" stroke-width="3" opacity="0.6"/>
+          <text x="0" y="0" dy="0.35em" class="title" font-size="24" font-weight="800" fill="#4a7c59" text-anchor="middle" opacity="0.6">清廉</text>
+        </g>
+
+      </svg>
